@@ -5,7 +5,7 @@
     <script>
 function 伝言する() {
   if (入力内容.value === "") {
-    alert("内容を入れてください.");
+    alert("内容を入れてください");
   } else {
     伝言エリア.innerText = 入力内容.value;
     alert("伝言をセットしました");
@@ -16,6 +16,6 @@ function 伝言する() {
   <body>
     伝言板
     <p id="伝言エリア">伝言はまだありません</p>
-    <input id="入力内容"><button onclick="伝言する()">セット</button>
+    <input id="入力内容"><button onclick="伝言する();">セット</button>
   </body>
 </html>
